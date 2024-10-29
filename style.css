@@ -71,10 +71,15 @@ a{
 
 .main-banner{
     width: 100%;
+    max-width: 1800px;
+    min-width: 320px;
     height: 900px;
     background-image: url("images/EDITADO\ FACHADA\ DE\ HOTEL\ 1920X1080.png");
     background-size: cover;
     background-attachment: fixed;
+    border-radius: 30px;
+    margin: auto;
+
 }
 
 /*ESTILOS MAIN*/
@@ -85,6 +90,10 @@ a{
     padding: 0 70px;
 }
 
+h1{
+    text-align: center;
+    margin: 95px 0px;
+}
 
 
 /*ESTILOS GRILLAS PAGE INICIO*/
