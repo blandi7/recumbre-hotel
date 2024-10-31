@@ -39,6 +39,7 @@ a{
     margin-top: 10px;
     min-width: 100vh;
     padding: 0 70px;
+    text-align: center;
 }
 
 /*ESTILOS HEADER*/
@@ -88,6 +89,9 @@ a{
     margin-top: 10px;
     min-height: 100vh;
     padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -97,6 +101,39 @@ h1{
 
 
 /*ESTILOS GRILLAS PAGE INICIO*/
+
+.section-grids{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-card-1{
+    width: 150px;
+    height: auto;
+    border: 5px red dotted;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.grid-card-picture-1 img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.grid-card-1 h2{
+    color: black;
+    font-size: 20px;
+    opacity: 50%;
+    font-family: 'Lucida Sans';
+}
+
+/*
 .section-grids{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -109,8 +146,9 @@ h1{
     ;
     column-gap: 20px;
     row-gap: 50px;
-    
 }
+
+/*
 
 .section-grids img{
     width: 100%;
@@ -178,6 +216,8 @@ justify-self: end;
 padding-left: 50px;
 margin-left: 20px;
 }
+
+*/
 
 /*ESTILOS FOOTER*/
 
